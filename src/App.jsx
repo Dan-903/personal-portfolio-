@@ -69,7 +69,7 @@ function App() {
                 </div>
               </div>
               <div className="col-md-6 text-right">
-                <img src="/public/assets/img/daniellatina.png" alt="Daniel-Latina" />
+                <img src="./public/assets/img/daniellatina.png" alt="Daniel-Latina" />
               </div>
             </div>
           </div>
@@ -81,14 +81,14 @@ function App() {
               <div className="row">
                 <div className="col-md-6 col-md-offset-3">
                   <h2>About</h2>
-                  <img src="/public/assets/img/lines.svg" className="img-lines" alt="lines" />
+                  <img src="./public/assets/img/lines.svg" className="img-lines" alt="lines" />
                   <p>
                     Hello! I'm Daniel, a Front-end developer, a history enthusiast,
                     likes to read how codes work. I am a lazy person that wants to do
                     things in the most effiecient way "that I know of" possible.
                   </p>
                   <a
-                    href="../public/assets/CV/DANIEL I. LATINA CV.pdf"
+                    href="./public/assets/CV/DANIEL I. LATINA CV.pdf"
                     className="btn btn-fill"
                     download
                   >
@@ -103,7 +103,7 @@ function App() {
             <div className="container">
               <div className="text-center">
                 <h3>My Skills</h3>
-                <img src="/public/assets/img/lines.svg" className="img-lines" alt="lines" />
+                <img src="./public/assets/img/lines.svg" className="img-lines" alt="lines" />
               </div>
               <div className="row">
                 <div className="col-md-4">
@@ -202,11 +202,11 @@ function App() {
               <div className="row">
                 <div className="col-md-12">
                   <h3>What i do</h3>
-                  <img src="/public/assets/img/lines.svg" className="img-lines" alt="lines" />
+                  <img src="./public/assets/img/lines.svg" className="img-lines" alt="lines" />
                 </div>
                 <div className="col-sm-6">
                   <div className="service">
-                    <img src="/public/assets/img/front-end.svg" alt="Front End Developer" />
+                    <img src="./public/assets/img/front-end.svg" alt="Front End Developer" />
                     <h4>Front-end</h4>
                     <p>
                       I have a modest amounts of experience in using HTML5, CSS and JS.
@@ -218,7 +218,7 @@ function App() {
                 </div>
                 <div className="col-sm-6">
                   <div className="service">
-                    <img src="/public/assets/img/back-end.svg" alt="Back End Developer" />
+                    <img src="./public/assets/img/back-end.svg" alt="Back End Developer" />
                     <h4>Back-end</h4>
                     <p>
                      I have little experience in back-end development.
@@ -235,13 +235,13 @@ function App() {
             <div className="container">
               <div className="text-center">
                 <h3>My recent Works</h3>
-                <img src="/public/assets/img/lines.svg" className="img-lines" alt="lines" />
+                <img src="./public/assets/img/lines.svg" className="img-lines" alt="lines" />
               </div>
               <div className="row">
                 <div className="col-md-4 col-sm-10 col-xs-6">
                   <div className="portfolio-item">
                     <img
-                      src="/public/assets/img/daniels-coffee.png"
+                      src="./public/assets/img/daniels-coffee.png"
                       className="img-res"
                       alt="Daniel's Coffee Website"
                     />
@@ -261,7 +261,7 @@ function App() {
                 <div className="col-md-4 col-sm-10 col-xs-6">
                   <div className="portfolio-item">
                     <img
-                      src="/public/assets/img/mock-portfolio.png"
+                      src="./public/assets/img/mock-portfolio.png"
                       className="img-res"
                       alt=""
                     />
@@ -281,7 +281,7 @@ function App() {
                 <div className="col-md-4 col-sm-10 col-xs-6">
                   <div className="portfolio-item">
                     <img
-                      src="/public/assets/img/infograph.png"
+                      src="./public/assets/img/infograph.png"
                       className="img-res"
                       alt="infograph.png"
                     />
@@ -340,7 +340,7 @@ function App() {
           <section id="contact" className="site-section section-form text-center">
             <div className="container">
               <h3>Contact</h3>
-              <img src="/public/assets/img/lines.svg" className="img-lines" alt="lines" />
+              <img src="./public/assets/img/lines.svg" className="img-lines" alt="lines" />
               <form>
                 <div className="row">
                   <div className="col-sm-6">
@@ -402,13 +402,13 @@ function App() {
                   <h4>My Socials</h4>
                   <div className="social-links">
                     <a href="https://www.facebook.com/Bopz903/" target="_blank">
-                      <img className="icons" src="/public/assets/img/facebook.png" alt="" />
+                      <img className="icons" src="./public/assets/img/facebook.png" alt="" />
                     </a>
                     <a href="https://github.com/Dan-903" target="_blank">
-                    <img className="icons" src="/public/assets/img/github.png" alt="" />
+                    <img className="icons" src="./public/assets/img/github.png" alt="" />
                     </a>
                     <a href="https://www.linkedin.com/in/daniel-latina-b57003278/" target="_blank">
-                    <img className="icons" src="/public/assets/img/linkedin.png" alt="" />
+                    <img className="icons" src="./public/assets/img/linkedin.png" alt="" />
                     </a>
                   </div>
                 </div>
@@ -424,7 +424,7 @@ function App() {
                 <a className="close" data-dismiss="modal">
                   <span className="glyphicon glyphicon-remove" />
                 </a>
-                <img className="img-res" src="/public/assets/img/Daniels-coffee.png" alt="" />
+                <img className="img-res" src="./public/assets/img/Daniels-coffee.png" alt="" />
               </div>
               <div className="modal-body">
                 <h4 className="modal-title">Daniel's Coffee Website</h4>
@@ -452,7 +452,7 @@ function App() {
                 <a className="close" data-dismiss="modal">
                   <span className="glyphicon glyphicon-remove" />
                 </a>
-                <img className="img-res" src="/public/assets/img/mock-portfolio.png" alt="mock-portfolio.png" />
+                <img className="img-res" src="./public/assets/img/mock-portfolio.png" alt="mock-portfolio.png" />
               </div>
               <div className="modal-body">
                 <h4 className="modal-title">Mock Portfolio</h4>
@@ -479,7 +479,7 @@ function App() {
                 <a className="close" data-dismiss="modal">
                   <span className="glyphicon glyphicon-remove" />
                 </a>
-                <img className="img-res" src="/public/assets/img/infograph.png" alt="infograph.png" />
+                <img className="img-res" src="./public/assets/img/infograph.png" alt="infograph.png" />
               </div>
               <div className="modal-body">
                 <h4 className="modal-title">Infograph Website</h4>
