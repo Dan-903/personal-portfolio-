@@ -25,7 +25,7 @@
 
 	.hero .col-md-6:last-child {
 		position: absolute;
-		right: -7rem;
+		right: -1rem;
 		top: 12rem;
 	}
 
@@ -76,6 +76,12 @@
 
 	.hero img {
 		height: 420px;
+	}
+
+	.hero .col-md-6:last-child {
+		position: absolute;
+		right: -0.55rem;
+		top: 12rem;
 	}
 
 	/* SITEMAIN
@@ -309,7 +315,7 @@
 
 	.hero .col-md-6:last-child {
 		position: absolute;
-		right: -2rem;
+		right: -0.01rem;
 		top: 17.5rem;
 	}
 
@@ -488,6 +494,13 @@
   @media(max-width: 574px){
 	.footer-col{
 	  width: 100%;
+
+	  
   }
+  .row-foot{
+	display: flex;
+	flex-direction: column;
+    justify-content: space-evenly;
+}
   }
   
